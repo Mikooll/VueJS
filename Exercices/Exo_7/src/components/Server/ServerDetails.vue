@@ -6,6 +6,15 @@
 </template>
 
 <script>
+    import { serverBus } from '../../main';
+    export default {
+        
+        created() {
+            serverBus.$on('serverSelected', (server) => {
+                
+            })
+        },
+    }
 </script>
 
 <style>
