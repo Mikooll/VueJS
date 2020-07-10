@@ -2,7 +2,7 @@
   <div>
     <h3>New Quote</h3>
     <button @click="counter++">Increase</button>
-    <p>{{ counter }}</p>
+    <p>{{ counter }}</p>
   </div>
 </template>
 
@@ -12,6 +12,12 @@
       return {
         counter: 0,
       };
+    },
+    deactivated() {
+      console.log("Desactivé");
+    },
+    activated() {
+      console.log("Activé");
     },
   };
 </script>
