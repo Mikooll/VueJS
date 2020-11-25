@@ -1,18 +1,15 @@
-# vue-cli
+# Wonderful Quotes
 
-> A Vue.js project
+> Projet de Quizz avec des nombres aléatoires
 
-## Build Setup
+## Question type
 
-``` bash
-# install dependencies
-npm install
+![picture](img/question.png)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Réponse érronnée
 
-# build for production with minification
-npm run build
-```
+![picture](img/erreur.png)
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Réponse correcte
+
+![picture](img/correct.png)
