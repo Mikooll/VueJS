@@ -1,17 +1,16 @@
 # THE STOCK TRADER
 
 
-## Build Setup
+## Page d'accueil 
 
-``` bash
-# install dependencies
-npm install
+``` Possibilité de charger ses données et de les enregistrer ```
 
-# serve with hot reload at localhost:8080
-npm run dev
+``` Accès à son portfolio, à savoir ses actions achetées et leur prix avec possiblité de les revendre```
 
-# build for production with minification
-npm run build
-```
+[!picture](img/Accueil.png)
 
+``` Accès au stock des actions à acheter ```
 
+[!picture](img/Stock.png)
+
+``` En cliquant sur "end day" cela modifie aléatoirement le prix de chaque action ```
